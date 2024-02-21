@@ -1,0 +1,160 @@
+h1{
+    text-align: center;
+    color:white;
+    font-family: cursive;
+}
+
+.main{
+    text-align: center;
+    width: 500px;
+    height:200px;
+ background-color: #EEC0C8;
+     padding: 20px; 
+           border-radius: 20px;
+margin-top: 80px;
+margin-left: 400px;
+}
+
+.row1 button {
+    background-color:white;
+    margin:10px;
+    width:55px;
+    border-color: white;
+    font-weight: bold;
+
+}
+.row2 button {
+    background-color:white;
+    margin:10px;
+    width:55px;
+    border-color: white;
+    font-weight: bold;
+}
+.row3 button {
+    background-color:white;
+    margin:10px;
+    width:55px;
+    border-color: white;
+    font-weight: bold;
+}
+.row4 button {
+    background-color:white;
+    margin:10px;
+    width:55px;
+    border-color: white;
+    font-weight: bold;
+}
+.row5 button {
+    background-color:white;
+    margin:10px;
+    width:55px;
+    border-color: white;
+    font-weight: bold;
+
+}
+.row1 button:hover {
+    background-color:#F9629F;
+}
+.row2 button:hover {
+    background-color:#F9629F;
+}
+.row3 button:hover {
+    background-color:#F9629F;
+}
+.row4 button:hover {
+    background-color:#F9629F;
+}
+.row5 button:hover {
+    background-color:#F9629F;
+}
+
+#userinput{
+    width:300px;
+    height:30px;
+    border-radius: 15px;
+    border-color: white;
+    margin-left:520px;
+    margin-top:20px;
+    text-align: center;
+}
+
+@media (width<=1104px){
+    .main{
+        margin-left:280px;
+    }
+    #userinput{
+        margin-left:400px;
+    }
+
+}
+
+@media (width<=1069px){
+    .main{
+        margin-left:250px;
+    }
+    #userinput{
+        margin-left:370px;
+    }
+
+}
+@media (width<=978px){
+    .main{
+        margin-left:200px;
+    }
+    #userinput{
+        margin-left:320px;
+    }
+
+}
+@media (width<=904px){
+    .main{
+        margin-left:170px;
+    }
+    #userinput{
+        margin-left:300px;
+    }
+
+}
+@media (width<=828px){
+    .main{
+        margin-left:130px;
+    }
+    #userinput{
+        margin-left:250px;
+    }
+
+}
+@media (width<=764px){
+    .main{
+        margin-left:100px;
+    }
+    #userinput{
+        margin-left:210px;
+    }
+
+}
+@media (width<=715px){
+    .main{
+        margin-left:0px;
+    }
+    #userinput{
+        margin-left:0px;
+        padding:10px;
+    }
+    h1{
+        text-align:center;
+    }
+
+}
+@media(width<=414px){
+    h1{
+        margin-left:100px;
+        }
+}
+
+@media(width<=430px){
+    h1{
+        margin-left:130px;
+        }
+}
+
