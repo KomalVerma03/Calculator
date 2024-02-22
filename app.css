@@ -3,16 +3,23 @@ h1{
     color:white;
     font-family: cursive;
 }
+body {
+align-items: center;
+justify-content: center;
+    margin: 0;
+}
 
-.main{
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 500px;
-    height:200px;
- background-color: #EEC0C8;
-     padding: 20px; 
-           border-radius: 20px;
-margin-top: 80px;
-margin-left: 400px;
+     background-color: #EEC0C8;
+    padding: 20px; 
+    border-radius: 20px;
+    margin-top: 80px;
+
 }
 
 .row1 button {
@@ -21,6 +28,7 @@ margin-left: 400px;
     width:55px;
     border-color: white;
     font-weight: bold;
+    
 
 }
 .row2 button {
@@ -73,88 +81,76 @@ margin-left: 400px;
     height:30px;
     border-radius: 15px;
     border-color: white;
-    margin-left:520px;
+    align-content: center;
     margin-top:20px;
     text-align: center;
+    
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (width<=1104px){
-    .main{
-        margin-left:280px;
+@media (width<=510px){
+    .row1 button {
+        width:35px;
     }
-    #userinput{
-        margin-left:400px;
+    .row2 button {
+        width:35px;
     }
-
-}
-
-@media (width<=1069px){
-    .main{
-        margin-left:250px;
+    .row3 button {
+        width:35px;
     }
-    #userinput{
-        margin-left:370px;
+    .row4 button {
+        width:35px;
     }
-
-}
-@media (width<=978px){
-    .main{
-        margin-left:200px;
-    }
-    #userinput{
-        margin-left:320px;
+    .row5 button {
+        width:35px;
     }
 
 }
-@media (width<=904px){
-    .main{
-        margin-left:170px;
+@media (width<=380px){
+    .row1 button {
+        width:32px;
     }
-    #userinput{
-        margin-left:300px;
+    .row2 button {
+        width:32px;
     }
-
-}
-@media (width<=828px){
-    .main{
-        margin-left:130px;
+    .row3 button {
+        width:32px;
     }
-    #userinput{
-        margin-left:250px;
+    .row4 button {
+        width:32px;
     }
-
-}
-@media (width<=764px){
-    .main{
-        margin-left:100px;
-    }
-    #userinput{
-        margin-left:210px;
+    .row5 button {
+        width:32px;
     }
 
 }
-@media (width<=715px){
-    .main{
-        margin-left:0px;
+@media (width<=360px){
+    .row1 button {
+        width:30px;
     }
-    #userinput{
-        margin-left:0px;
-        padding:10px;
+    .row2 button {
+        width:30px;
     }
-    h1{
-        text-align:center;
+    .row3 button {
+        width:30px;
+    }
+    .row4 button {
+        width:30px;
+    }
+    .row5 button {
+        width:30px;
     }
 
 }
-@media(width<=414px){
-    h1{
-        margin-left:100px;
-        }
-}
 
-@media(width<=430px){
-    h1{
-        margin-left:130px;
-        }
-}
 
+
+   
+
+
+      
+    
